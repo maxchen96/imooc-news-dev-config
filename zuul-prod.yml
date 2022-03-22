@@ -1,4 +1,4 @@
 blackIP:
-  continueCounts: ${counts:35}    # ip连续请求的次数
-  timeInterval: ${interval:305}    # ip判断的时间间隔，单位：秒
-  limitTimes: ${times:15}         # 限制的时间，单位：秒
+  continueCounts: ${counts:30}    # ip连续请求的次数
+  timeInterval: ${interval:300}    # ip判断的时间间隔，单位：秒
+  limitTimes: ${times:10}         # 限制的时间，单位：秒
